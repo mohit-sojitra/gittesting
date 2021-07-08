@@ -1,0 +1,37 @@
+git config user.name <uname>   //for changing git username
+git config user.email <password> //for changing git email
+
+
+git fetch <remotename> //for fetching newly created remote repos branches
+git fetch all //for fetch data from all the remotes
+
+git branch // For all local Branches
+git branch -a //For all branches (local + remote)
+
+git checkout <branch-name> // For changing working branch 
+
+git remote -v // For getting remote branch name & URLs
+
+git diff //For see changes made by you
+git status //For see name of file you changes
+
+git add ./<File name> //For add the file in staging
+
+git commit -m "<message>" //For save the changes or commit
+
+
+git pull //For pulling the current local branch from default remote
+git pull <remotename> <branch>  // For pulling the particular branch of remote to the current active branch of local repo.
+
+git push //For pushing the current local branch to remote to default remote
+git push <remotename> <branch> // For pushing the particular branch of local to the remote
+git push -u <remotename> <branch> // -u for associate local branch to remote branch for easy pushing and pulling
+
+git branch --merged // For seeing how many branch are merged to current local branch
+git merge <branch> // For merging the perticular branch with current local branch
+
+git branch -d <branch> // For deleting the branch locally
+git push <remotename> -d <branch> //For deleting the remote branch
+
+git reset --hard // For descarding all the changes of current local branch till head
+git reset --hard <commit name> // for descarding all the changes to perticular commit
