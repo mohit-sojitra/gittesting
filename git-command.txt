@@ -1,6 +1,7 @@
+//Important git commands as developer
+
 git config user.name <uname>   //for changing git username
 git config user.email <password> //for changing git email
-
 
 git fetch <remotename> //for fetching newly created remote repos branches
 git fetch all //for fetch data from all the remotes
