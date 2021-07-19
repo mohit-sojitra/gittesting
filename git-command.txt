@@ -1,4 +1,4 @@
-//Important git commands as developer
+//Important git commands as developer by mohit
 
 git config user.name <uname>   //for changing git username
 git config user.email <password> //for changing git email
